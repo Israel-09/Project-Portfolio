@@ -1,0 +1,41 @@
+header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.nav-bar a {
+    font-size: 1.2em;
+    color: black;
+    padding-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  sans-serif;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+.try-now {
+    background-color: #940c0c;
+    border-radius: 5px;
+    height: 30px;
+    width: fit-content;
+    padding: 4px 10px 4px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.try-now a {
+    color: white;
+}
+
+.try-now:hover {
+    background-color: #a71818;
+    font-size: 1.1em;
+}
